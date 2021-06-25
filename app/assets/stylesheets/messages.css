@@ -25,6 +25,8 @@
 
 .create-room a {
   font-size: 10px;
+}
+  .create-room a{
   border: 1px solid lightblue;
   padding: 14px;
   color: deepskyblue;
@@ -50,6 +52,7 @@
 .chat {
   background-color: #FFFFFF;
   width: calc(100vw - 300px);
+  height:100vh;
 }
 
 .chat-header {
@@ -81,10 +84,11 @@
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
+  box-sizing: border-box;
 }
 
 .message {
-  margin: 10px 0 0 0;
+  margin: 10px 0;
 }
 
 .upper-message{
@@ -117,6 +121,7 @@
   height: 90px;
   padding: 20px 40px;
   display: flex;
+  box-sizing: border-box;
 }
 
 .form-input {
